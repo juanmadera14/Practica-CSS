@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background: #000 url(messi2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+.contenedor {
+    
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+header {
+    background: #fff;
+}
+
+header nav ul {
+    width: 100%;
+    overflow: hidden;
+    list-style: none;
+}
+
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    color:  #000;
+
+}
+
+header nav ul li a:hover{
+    background: #000;
+    color: #fff;
+}
+
+.main {
+    width: 70%;
+    background: #fefae0;
+    float: left;
+}
+
+.main .imagen {
+    width: 100%;
+}
+
+.main .imagen img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.main .post {
+    padding: 50px;
+}
+
+.main .post article h2 {
+    margin-bottom: 20px;
+    color: #424242;
+}
+
+.main .post article ul {
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+aside {
+    width: 30%;
+    background: #ccd5ae;
+    padding: 20px;
+    float: left;
+}
+
+aside .biografia {
+    margin-bottom: 20px;
+}
+
+aside .biografia h2 {
+    margin-bottom: 15px;
+}
+
+aside .biografia p {
+    line-height: 27px;
+} 
+
+footer {
+    width: 70%;
+    clear: both;
+    /* limpia y quita el espacio */
+    background: #000;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* usando mediaqueries para poner mi sitio web responsibe  */
+
+@media screen and (max-width:800px)  {
+    .main {
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
